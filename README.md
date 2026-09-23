@@ -68,7 +68,7 @@ pytest -v
 
 ## 🧑‍💻 Auteur
 
-Projet réalisé par **[Ton Nom]** — stagiaire en infrastructure digitale.
+Projet réalisé paron ADAM ELMANAOUAI (@Tthereal4dam)— stagiaire en infrastructure digitale.
 Retours et suggestions bienvenus via les *issues* !
 
 ## 📄 Licence
