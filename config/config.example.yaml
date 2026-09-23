@@ -1,0 +1,25 @@
+# InfraWatch - Configuration exemple
+# Copiez ce fichier vers config.yaml et adaptez les valeurs.
+
+thresholds:
+  cpu:
+    warning: 75
+    critical: 90
+  memory:
+    warning: 80
+    critical: 95
+  disk:
+    warning: 85
+    critical: 95
+
+monitor:
+  disks:
+    - /
+    - /var
+  services:
+    - ssh
+    - nginx
+
+report:
+  format: html          # json | html
+  output_dir: ./reports

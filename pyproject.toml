@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "infra-watch"
+version = "1.0.0"
+description = "Outil de monitoring et d'audit d'infrastructure léger"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["psutil>=5.9"]
+
+[project.scripts]
+infra-watch = "infra_watch.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
